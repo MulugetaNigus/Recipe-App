@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    box-sizing: border-box;
+}
+
+#para{
+    /* color: rgb(78,65,70); */
+    color: rgb(233 ,119 ,48);
+}
+
+/* #Banner{
+    background-image: url("../src/Assets/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh;
+    display: flex; */
+/* } */
+
+#additional{
+    background-image: url("https://img.freepik.com/free-photo/close-up-view-delicious-sushi-concept_23-2148678341.jpg?t=st=1716218259~exp=1716221859~hmac=55103a6d99e5657dca1dd53f676936357ba0096f04ae7b1e54b9f64d1cec409b&w=996");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#additionalSec:hover{
+    transform: scale(.99);
+    transition: all .4s;
+    /* box-shadow: 5px 5px 10px 5px rgb(218, 218, 218); */
+}
+
+.card img{
+    display: flex;
+    height: 50%;
+    width: auto;
+}
+
+@media screen and (max-width: 780px) {
+    #sideBannerImg{
+        display: none;
+    }
+}
