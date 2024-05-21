@@ -131,7 +131,7 @@ const FindRecipe = () => {
                 />
                 <div className="card-body">
                   <h3 className="card-title text-muted fw-bold">
-                    {food.strMeal}
+                    {food.idMeal}
                   </h3>
                   <p className="card-text small fs-5">
                     {" "}
