@@ -7,6 +7,10 @@ import { IFoods } from "../Types/Type.app";
 // icnos
 import { PiYoutubeLogoThin } from "react-icons/pi";
 
+// redux toolkit importations here
+import { useDispatch, useSelector } from "react-redux";
+import { getID } from "../features/ID";
+import { Link } from "react-router-dom";
 const FindRecipe = () => {
   // fetch the recipe info
   const [recipe, setRecipe] = useState<IFoods[]>([]);
@@ -14,6 +18,8 @@ const FindRecipe = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [recipeNotFound, setrecipeNotFound] = useState(false);
+
+  const dispatch = useDispatch();
 
   // when i click the search recipe button it fetch the recipe info from the api
   const getRecipe = async () => {
@@ -43,6 +49,13 @@ const FindRecipe = () => {
       setLoading(false);
       console.log(error);
     }
+  };
+
+  // const MealID = useSelector((state) => state.value);
+  //   explore more function
+  const handleMore = (id: React.MouseEvent<HTMLAnchorElement>) => {
+    dispatch(getID({ id: id }));
+    // alert(MealID);
   };
 
   return (
@@ -131,7 +144,7 @@ const FindRecipe = () => {
                 />
                 <div className="card-body">
                   <h3 className="card-title text-muted fw-bold">
-                    {food.idMeal}
+                    {food.strMeal}
                   </h3>
                   <p className="card-text small fs-5">
                     {" "}
@@ -159,13 +172,13 @@ const FindRecipe = () => {
                         <PiYoutubeLogoThin />
                       </span>
                     </a>
-                    <a
-                      href={food.strYoutube}
-                      target="_black"
+                    <Link
+                      to="/EvenDetail"
                       className="btn btn-dark"
+                      onClick={() => handleMore(food.idMeal)}
                     >
                       More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
