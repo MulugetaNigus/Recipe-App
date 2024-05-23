@@ -21,15 +21,15 @@ function CommonRecipe() {
           >
             <div className="card">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Carrot_cake_at_America_Graffiti_%28cropped%29.jpg/220px-Carrot_cake_at_America_Graffiti_%28cropped%29.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Cornish_fairings.jpg/200px-Cornish_fairings.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Carrot cake</h5>
+                <h5 className="card-title">Cornish fairing</h5>
                 <p className="card-text">
-                  Carrot cake (also known as passion cake) is cake that contains
-                  carrots mixed into the batter.
+                  A Cornish fairing is a type of traditional ginger biscuit
+                  commonly found in Cornwall, England, United Kingdom.
                 </p>
                 <a href="findRecipe" className="btn btn-light">
                   Search Another
@@ -44,7 +44,7 @@ function CommonRecipe() {
           >
             <div className="card">
               <img
-                src="https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Acibadem_Kurabiyesi.jpg/220px-Acibadem_Kurabiyesi.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -68,18 +68,17 @@ function CommonRecipe() {
           >
             <div className="card">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Blueberry_pancakes_%283%29.jpg/220px-Blueberry_pancakes_%283%29.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/250px-Pizza-3007395.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Pancake</h5>
+                <h5 className="card-title">Aachener Printen</h5>
                 <p className="card-text">
-                  A pancake (or hotcake, griddlecake, or flapjack) is a flat
-                  cake, often thin and round, prepared from a starch-based
-                  batter that may contain eggs, milk and butter
+                  Aachener Printen are a type of Lebkuchen originating from the
+                  city of Aachen in Germany.
                 </p>
-                <a href="findRecipe" className="btn btn-light">
+                <a href="findRecipe" className="btn btn-light my-4">
                   Search Another
                 </a>
               </div>
@@ -119,16 +118,17 @@ function CommonRecipe() {
         >
           <div className="card">
             <img
-              src="https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/250px-Espaguetis_carbonara.jpg"
               className="card-img-top"
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">Doughnut</h5>
+              <h5 className="card-title">Carbonara</h5>
               <p className="card-text">
-              A doughnut or donut (/ˈdoʊnət/) is a type of pastry made from leavened fried dough.F
+                Carbonara (Italian: [karboˈnaːra]) is a pasta dish made with
+                eggs, hard cheese, fatty cured pork, and black pepper.
               </p>
-              <a href="findRecipe" className="btn btn-light mb-3">
+              <a href="findRecipe" className="btn btn-light my-3">
                 Search Another
               </a>
             </div>
