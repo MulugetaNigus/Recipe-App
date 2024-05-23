@@ -14,7 +14,7 @@ The Recipe App is a user-friendly web application that allows users to search fo
 ## Technologies Used
 - **Frontend**: React
 - **Styling**: Bootstrap
-- **API**: TheMealDB API
+- **API**: themealdb API
 
 ## Installation
 Follow these steps to set up the project locally:
