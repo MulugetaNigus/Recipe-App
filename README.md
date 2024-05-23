@@ -29,7 +29,7 @@ Follow these steps to set up the project locally:
 3. **Start the development server:**
      npm start
 
-#Usage
+## Usage
 
 1. Search for a Recipe: Use the search bar at the top of the homepage to enter the name of the food you want to find a recipe for.
 2. View Recipe Details: Click on a recipe from the search results to view detailed information including the list of ingredients, measurements, and a YouTube video link for the recipe tutorial.
